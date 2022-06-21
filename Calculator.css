@@ -1,0 +1,39 @@
+p{
+    font-size:larger;
+    color: rgb(22, 19, 19);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+button{
+    border-radius: 15px;
+    background-color: #ebeba4; 
+    color: rgb(59, 51, 51);
+    padding: 25px 40px;
+    text-align: center;
+    font-size: 25px;
+    border: 3px solid rgb(234, 198, 90);
+    transition-duration: 0.3s;
+    
+}
+button:hover {
+    background-color: #eedd18; 
+    color: white;
+}
+input{
+    border-radius: 15px;
+    color: rgb(0, 0, 0);
+    padding: 15px 40px;
+    text-align: center;
+    font-size:medium;
+    border: 3px solid rgb(230, 206, 136);
+    transition-duration: 0.3s;
+}
+input:hover{
+    background-color: #f0ecce; 
+}
+div{
+    position: absolute;
+    top: 0;
+    left: 40%;
+    overflow: auto;
+}
